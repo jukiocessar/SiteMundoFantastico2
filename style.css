@@ -1,0 +1,183 @@
+/*Fontes usadas*/
+   @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+@keyframes revelar {
+  100%{
+     opacity: 0%;
+  }
+  50%{
+   opacity: 50%;
+  }
+    0%{
+     opacity: 100%;
+    }
+  
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-color: aqua;
+}
+header{
+   black;
+  height: 80px;
+  width: 100%;
+  background-color: #f1f1f1;
+  box-shadow: 0px 2px 6px #00000032;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+header #logo{
+  height: 65px;
+  transform: translateX(20%);
+}
+header #abrir{
+   position: fixed;
+   background-color: transparent;
+   color: black;
+  font-size: 17pt;
+  border: none;
+  right: 3px;
+  top: 3px;
+  margin-right: 2px ;
+  rotate: 90deg;
+  
+}
+header #abrir:hover{
+ background-color: #aqua;
+}
+header #miranhinha{
+  height: 120px;
+  position: absolute;
+  left: 2px;
+  top: -18px;
+  rotate: -90deg;
+}
+
+header #Ops{
+  top: 0px;
+  transform: translateX(
+  100%) translateY(10px);
+  width: 25%;
+  height: 30%;
+  background-color: #f1f1f1;
+  box-shadow: 0px 0px 15px black;
+  z-index: 1;
+  border-radius: 9px;
+ position: fixed;
+ text-align: center;
+ 
+}
+#Ops{
+  background: url("imagens/MUNDOFANTASTICO.png");
+  background-repeat: no-repeat;
+  background-size:80%;
+  background-position-y: 50% ;
+  background-position-x: 50%;
+}
+header #fechar{
+   background-color: transparent;
+   color: black;
+  font-size: 17pt;
+  border: none;
+ position: fixed;
+ right: 2px;
+ bottom: 2px;
+}
+header #fechar:hover{
+  background-color: aqua;
+}
+#textoExpli{
+  color: white;
+  background-color: transparent;
+  text-shadow: 0px 0px 20px #212121;
+}
+main{
+  background-color: aqua;
+   black;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  
+}
+main #info img{
+  width: 80%;
+  height: 10%;
+  transform: translateX(12%);
+  box-shadow: 0px 0px 20px #8b8686;
+   #2b2020;
+  border-radius: 5px;
+}
+main h2{
+  color: #f1f1f1;
+  transform: translateX(14%);
+  width: 80%;
+  font-size: 27pt;
+  font-family: 'Croissant One', cursive;
+  text-shadow: 
+ 0px 0px 20px black;
+}
+main p {
+  color: #f1f1f1;
+  padding: 20px;
+ width: 80% ;
+  font-size: 39pt;
+  font-family: 'Sedgwick Ave Display', cursive;
+ text-shadow: 
+ 0px 0px 20px black;
+ margin-left: 10px;
+}
+main #imagem1 >  p{
+   background: url("imagens/pngwing.com(2).png");
+ background-repeat: no-repeat;
+ 
+ background-position-x: 50%;
+ background-position-y: 50%;
+ background-size: 600px;
+ 
+ 
+}
+main span{
+  color:#fff294;
+  background-color: white;
+  
+}
+main #imagem2 > p{
+  background: url("imagens/pngwing.com.png");
+  background-size: 420px;
+  background-repeat: no-repeat;
+  background-position-y: 10%;
+  margin-left: 0px;
+  
+}
+main #imagem3>p{
+  background: url(imagens/miranha.com.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position-x: 0%;
+}
+
+footer{
+  height: 80px;
+  width: 100%;
+  background-color: #f1f1f1;
+  Display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 0px 6px #00000032 ;
+}
+footer img{
+  height: 50%;
+  margin: 5px;
+  margin-bottom: 0px;
+  transform: translateX(20px);
+}
+footer p{
+  font-size: 10px;
+  
+}
